@@ -1,0 +1,10 @@
+#
+git-core gnupg flex bison gperf libesd0-dev build-essential \
+zip curl libncurses5-dev zlib1g-dev gcc-multilib g++-multilib
+ia32-libs
+#
+debootstrap qemu-user-static
+python-qt4 python-pip
+
+#
+pass,vim,disk,gnome-disk-utility,lshw-gtk,bitmask leap-archive-keyring,keepassx
