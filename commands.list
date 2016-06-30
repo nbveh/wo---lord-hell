@@ -1,0 +1,18 @@
+visudo
+sudo -s
+shutdown -r now
+reboot
+touch
+sh ./
+lightdm stop
+service lightdm stop
+wget -O- https://dl.bitmask.net/apt.key | apt-key add -
+ gpg --keyserver x-hkp://pool.sks-keyservers.net --recv-keys 0x4E
+ gpg --fingerprint 0x4E
+ apt-get update && apt-get upgrade
+ apt-cache search lsblk
+ fdisk -l /dev/sdb
+ history
+ !15
+ dd if=a of=/dev/sdb
+ gpg --list-keys --with-fingerprint  7D8
